@@ -1,2 +1,0 @@
-# anna-web-edu
-`code`
