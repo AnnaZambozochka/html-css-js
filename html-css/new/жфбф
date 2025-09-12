@@ -1,0 +1,120 @@
+ввод N
+ввод x1
+min = x1
+max = x1
+
+цикл x2 -> xN
+  if xi < min
+    min = xi
+  end if
+  if xi > max
+    max = xi
+  end if
+конец цикла
+вывод min, max
+
+ввод array
+min = array[0]
+max = array[0]
+index = 0
+loop index
+  if array[index] не существует
+    exit
+  end if
+  if array[index] < min
+    min = array[index]
+  end if
+  if array[index] > max
+    max = array[index]
+  end if
+  index = index + 1
+end loop
+
+вывод min, max
+
+loop index
+  if index > array.length
+    exit
+  end if
+  if array[index] < min
+    min = array[index]
+  end if
+  if array[index] > max
+    max = array[index]
+  end if
+  index = index + 1
+end loop
+
+
+for index = 0 to array.length - 1
+  if array[index] < min
+    min = array[index]
+  end if
+  if array[index] > max
+    max = array[index]
+  end if
+end loop
+
+
+Ввод N 
+Ввод х0 
+х0 = min_value 
+index = 0
+цикл x0-xi
+если хi < min_value, xi = min_value
+если index > N, вывод
+конец если
+конец цикла
+вывод min_value
+
+ввод array[N]
+max_value = x0
+let мин-макс = 0
+цикл x0-xN
+    если xi > max_value, xi = max_value
+        если i = N, следующий цикл
+    конец если
+конец цикла
+цикл x0-xN
+если max_value > xa > array[N], let мин-макс = xa
+если xa не существует, вывод = false
+конец если
+конец цикла
+вывод let мин-макс
+
+ввод array[N]
+let amount = K
+K = 0
+loop x0-xN  
+    if X = array[N], let amount = K+1
+ end if
+ end loop  
+вывод let amount  
+
+ввод array[N]
+let negative = K
+K = 0
+loop x0-xN  
+    if xi < 1, let negative = K+1
+ end if
+ end loop  
+вывод let negative 
+
+Найти длину максимальной серии одинаковых подряд идущих чисел.
+
+ввод array[N]
+let length = K
+K=0
+loop x0-xN
+    if xi = xi+1, let length = K + 1, иначе вывод
+    end if
+end loop
+array [k]
+let max_K = 0
+loop K0-Kk
+    if Ki > array[k], let max_K = Ki
+    end if
+end loop
+вывод let max_K    
+        
+
